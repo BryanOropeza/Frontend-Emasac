@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { NavbarInnerPage } from "./NavbarinnerPage";
 
-export const API = process.env.API || "http://localhost:4000"; // Ruta de tu servidor
+export const API = process.env.API_URL || "http://localhost:4000"; // Ruta de tu servidor
 
 export const Cotizacion = () => {
 

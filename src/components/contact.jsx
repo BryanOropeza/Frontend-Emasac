@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 
-export const API = process.env.API || "http://localhost:4000";
+export const API = process.env.API_URL || "http://localhost:4000";
 
 export const Contact = () => {
     const [sentMessage, setSentMessage] = useState(false);
