@@ -3,12 +3,12 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { NavbarInnerPage } from "./NavbarinnerPage";
 import Swal from "sweetalert2";
 
-
+export const API = process.env.API || "http://localhost:4000";
 
 export const Reserva = () => {
 
     const navigate = useNavigate();
-    const API = process.env.API_URL || "http://localhost:4000";  // Ruta del servidor
+    // Ruta del servidor
 
     const location = useLocation();
     const reservaIdText = new URLSearchParams(location.search).get('id');

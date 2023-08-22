@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 
-const API = process.env.API_URL || "http://localhost:4000";
+export const API = process.env.API || "http://localhost:4000";
 
 export const Users = () => {
   const getUsers = async () => {

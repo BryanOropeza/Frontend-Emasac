@@ -4,6 +4,8 @@ import { useLocation } from "react-router-dom";
 import Swal from 'sweetalert2';
 
 
+export const API = process.env.API || "http://localhost:4000";
+
 export const InnerPage = () => {
 
     // Importamos useLocation para acceder al id del usuario logeado
@@ -11,7 +13,7 @@ export const InnerPage = () => {
     const userIdText = new URLSearchParams(location.search).get("userId");
     const userId = Number(userIdText);
 
-    const API = process.env.API_URL || "http://localhost:4000";
+
 
     const [cotizaciones, setCotizaciones] = useState([]);
     const [reservas, setReservas] = useState([]);
