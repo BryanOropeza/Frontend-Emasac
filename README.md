@@ -5,7 +5,7 @@
 
 La empresa EMASAC es una empresa orientada al rubro de cargas internacionales. Por lo que dentro de sus variadas gestiones y logísticas dos de ellas son esenciales para el
 correcto cumplimiento de sus objetivos: La cotización y Booking para poder establecer las reservación de cargas correspondientes. El proyecto completo se encuentra divido en dos partes,
-siendo este, el apartado del front correspondiente. Pueden visitar el apartado back aquí: - [Frontend-Emasac](https://github.com/BryanOropeza/Backend-Emasac)
+siendo este, el apartado del front correspondiente. Pueden visitar el apartado back aquí: - [Backend-Emasac](https://github.com/BryanOropeza/Backend-Emasac)
 
 ## INDICE
 - [INFORMACIÓN DE LA EMPRESA](#Información)
